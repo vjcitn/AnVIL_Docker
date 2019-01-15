@@ -23,4 +23,6 @@ for (builtin in builtins)
 install.packages(c("bigrquery", "googleCloudStorageR"),
                  repos="http://cran.mtu.edu")
 
-devtools::install_github("DataBiosphere/Ronaldo")
+devtools::install_github("DataBiosphere/Ronaldo", "vjcitn/tumex5")
+
+BiocManager::install("BiocOncoTK")
